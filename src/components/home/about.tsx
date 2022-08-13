@@ -29,7 +29,7 @@ const AppAbout: React.FC = () => {
         },
     ];
     return (
-        <div className="block aboutBlock">
+        <div id="about" className="block aboutBlock">
             <div className="container-fluid">
                 <div className="titleHolder">
                     <h2>About Us</h2>
@@ -50,7 +50,7 @@ const AppAbout: React.FC = () => {
                 </div>
                 <Row gutter={[16, 16]}>
                     {items.map((item) => {
-                        return <Col span={8} key={item.key}>
+                        return <Col md={{span:"8"}} key={item.key}>
                           <div className="content">
                             <div className="icon">
                               {item.icon}

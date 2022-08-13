@@ -11,14 +11,14 @@ import image6 from "../../assets/images/advanced-option.jpeg";
 const { Meta } = Card;
 const AppFeature: React.FC = () => {
     return (
-        <div className="block featureBlock bgGray">
+        <div id="feature" className="block featureBlock bgGray">
             <div className="container-fluid">
                 <div className="titleHolder">
                     <h2>Key Features and Benefits</h2>
                     <p></p>
                 </div>
                 <Row gutter={[16, 16]}>
-                    <Col span={8}>
+                    <Col md={{span:8}} xs={{span:12}}>
                         <Card
                             hoverable
                             cover={<img alt="Modern Design" src={image1} />}
@@ -26,7 +26,7 @@ const AppFeature: React.FC = () => {
                             <Meta title="Modern Design" />
                         </Card>
                     </Col>
-                    <Col span={8}>
+                    <Col md={{span:8}} xs={{span:12}}>
                         <Card
                             hoverable
                             cover={<img alt="Clean and Elegant" src={image2} />}
@@ -34,7 +34,7 @@ const AppFeature: React.FC = () => {
                             <Meta title="Clean and Elegant" />
                         </Card>
                     </Col>
-                    <Col span={8}>
+                    <Col md={{span:8}} xs={{span:12}}>
                         <Card
                             hoverable
                             cover={<img alt="Great Support" src={image3} />}
@@ -42,7 +42,7 @@ const AppFeature: React.FC = () => {
                             <Meta title="Great Support" />
                         </Card>
                     </Col>
-                    <Col span={8}>
+                    <Col md={{span:8}} xs={{span:12}}>
                         <Card
                             hoverable
                             cover={<img alt="East to Customize" src={image4} />}
@@ -50,7 +50,7 @@ const AppFeature: React.FC = () => {
                             <Meta title="East to Customize" />
                         </Card>
                     </Col>
-                    <Col span={8}>
+                    <Col md={{span:8}} xs={{span:12}}>
                         <Card
                             hoverable
                             cover={<img alt="Unlimited Features" src={image5} />}
@@ -58,7 +58,7 @@ const AppFeature: React.FC = () => {
                             <Meta title="Unlimited Features" />
                         </Card>
                     </Col>
-                    <Col span={8}>
+                    <Col md={{span:8}} xs={{span:12}}>
                         <Card
                             hoverable
                             cover={<img alt="Andvance Options" src={image6} />}

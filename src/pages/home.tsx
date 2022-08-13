@@ -5,6 +5,7 @@ import AppFeature from "../components/home/feature";
 import AppWorks from "../components/home/works";
 import AppFaq from "../components/home/faq";
 import AppPricing from "../components/home/pricing";
+import AppContact from "../components/home/contact";
 const AppHome:React.FC = () => {
     return(
         <div className="main">
@@ -14,6 +15,7 @@ const AppHome:React.FC = () => {
             <AppWorks/>
             <AppFaq/>
             <AppPricing/>
+            <AppContact/>
         </div>
     )
 }

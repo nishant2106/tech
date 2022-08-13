@@ -1,8 +1,9 @@
 import React from 'react';
 import './App.css';
-import { Content, Header } from 'antd/lib/layout/layout';
+import { Content, Footer, Header } from 'antd/lib/layout/layout';
 import AppHeader from './components/common/header';
 import AppHome from './pages/home';
+import AppFooter from './components/common/footer';
 
 const App:React.FC = () => {
   return (
@@ -13,6 +14,9 @@ const App:React.FC = () => {
       <Content>
         <AppHome />
       </Content>
+      <Footer>
+        <AppFooter/>
+      </Footer>
     </div>
   );
 }
